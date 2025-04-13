@@ -17,7 +17,7 @@
             </a>
             <span class="text-white text-xl font-semibold">Fire Station</span>
         </div>
-          <!-- Middle Section: Navigation Links -->
+          <!-- Middle Section:  Links -->
     <div class="flex space-x-6">
         <a href="/" class="text-white hover:underline">Home</a>
         <a href="add" class="text-white hover:underline">New</a>

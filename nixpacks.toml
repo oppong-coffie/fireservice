@@ -1,2 +1,8 @@
 [phases.setup]
-nixPkgs = ["nodejs_18" , "php81", "php81Packages.composer"]
+nixPkgs = ["php81", "php81Packages.composer", "nodejs_18"]
+
+[phases.build]
+cmds = ["composer install", "npm install", "npm run build"]
+
+[start]
+cmd = "php artisan serve --host=0.0.0.0 --port=8080"

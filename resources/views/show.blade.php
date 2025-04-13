@@ -24,11 +24,9 @@
         <a href="all" class="text-white hover:underline">List</a>
     </div>
 
-        <!-- Station Time (Dynamic) -->
+        <!-- Station Time  -->
         <div class="text-white text-lg" id="station-time"></div>
     </nav>
-    
-
 
     <div class="grid grid-cols-10 gap-8 p-8">
         <!-- Profile Section -->
